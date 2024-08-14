@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-image: url(img/tecido-games-epicos-video-playstation-140-cm-x-100-cm-estampa-saia-vestido.webp);
+    color: aliceblue;
+}
+
+header img {
+    width: 90px;
+    height: auto;
+}
+
+header nav div ul {
+    display: flex;
+}
+
+header nav div ul li {
+    margin-right: 30px;
+}
+
+header nav div ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.titulo {
+    margin-bottom: 50px;
+}
+
+main section {
+    background-image: url(img/images\ \(2\).jpg);
+    padding: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+
+}
+
+main section p {
+    font-weight: 900;
+}
+
+.dois {
+    padding: 130px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    background-color: #2f67dc;
+    display: flex;
+}
+
+.doiso{
+    display: flex;
+    width: 205px;
+    height: auto;
+    justify-content: space-evenly;
+}
+.doiso {
+    border-radius: 10px;
+}
+.sin{
+    padding: 130px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    background-color: #1849b7;
+    display: flex;
+}
+.sin div img{
+    border-radius: 10px;
+}
+.controle{
+    padding: 190px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    background-color: #002b91;
+    display: flex;
+}
+.controle div img{
+    border-radius: 10px;
+}
