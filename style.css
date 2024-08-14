@@ -34,6 +34,22 @@ header nav div ul li a {
 .titulo {
     margin-bottom: 50px;
 }
+section div input{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(250, 235, 215, 0.42);
+
+}
+.Sorteio{
+    background-image: url(img/ps5.jpg);
+    padding: 205px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+        align-items: center;
+    justify-content: center;
+}
 
 main section {
     background-image: url(img/images\ \(2\).jpg);
@@ -42,6 +58,7 @@ main section {
     background-position: center;
     background-size: cover;
     font-size: 20px;
+    background-attachment: fixed;
 
 }
 
@@ -67,28 +84,21 @@ main section p {
 }
 .doiso {
     border-radius: 10px;
+
 }
-.sin{
-    padding: 130px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-size: 20px;
+footer div ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #1849b7;
-    display: flex;
+   
 }
-.sin div img{
-    border-radius: 10px;
+footer div ul li {
+    margin-right: 50px;
+    color: aliceblue;
+    
 }
-.controle{
-    padding: 190px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-size: 20px;
-    background-color: #002b91;
-    display: flex;
-}
-.controle div img{
-    border-radius: 10px;
+footer div ul li a{
+    color: aliceblue;
+     text-decoration: none;
 }
