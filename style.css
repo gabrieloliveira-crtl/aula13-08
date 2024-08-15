@@ -1,104 +1,109 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+/* (*) usado para mudar a configuraçao geral do site */
+*{
+    margin: 0;/* zarando a marigin do site */
+    padding: 0;/* zerando o preenchimento*/
+    list-style: none;/* removendo os estilos de listas */
 }
-
+/* chamamos nosso cabeçalho para estilizaçao */
 header {
-    display: flex;
-    justify-content: space-around;
+    display: flex;/* tornando nosso header flex - deixando os itens lado a lado */
+    justify-content: space-around;/* justificativa do conteudo - aqui podemos ajustar conforme nossa necessidade */
     align-items: center;
-    padding: 15px;
-    background-image: url(img/tecido-games-epicos-video-playstation-140-cm-x-100-cm-estampa-saia-vestido.webp);
-    color: aliceblue;
+    padding: 15px;/* colocando um tamanho no header  */
+    background-image: url(img/tecido-games-epicos-video-playstation-140-cm-x-100-cm-estampa-saia-vestido.webp);/* colocamos uma imagem de fundo do site,0
+     */
+    color: aliceblue;/* colocamos uma cor nas letras */
 }
-
+/* chamamos nosso icone para estilização */
 header img {
-    width: 90px;
-    height: auto;
+    width: 90px;/* largura da imagen */
+    height: auto;/* altura da imagen */
 }
-
+/* chamamos nossa lista para estilizaçao  */
 header nav div ul {
-    display: flex;
+    display: flex;/* tornamos nossa lista nao ordenada em flex, deixando os itens pertencentes a ela, lado a lado */
 }
-
+/* chamamos nossa lista para estilizaçao  */
 header nav div ul li {
-    margin-right: 30px;
+    margin-right: 30px;/* espaçamento entre as (li) */
 }
-
+/* chamamos nossa ancora para estilizaçao */
 header nav div ul li a {
-    text-decoration: none;
-    color: aliceblue;
+    text-decoration: none;/* decoraçao da ancora (subinhado) desabilitado */
+    color: aliceblue;/* cor definida */
 }
-
+/* chamamos a section para estilização */
 .titulo {
-    margin-bottom: 50px;
+    margin-bottom: 50px;/* colocamos um tamanho na section */
 }
+/* chamamos nosso botao para estilizaçao */
 section div input{
-    padding: 10px;
-    border-radius: 20px;
-    background-color: rgba(250, 235, 215, 0.42);
+    padding: 10px;/* definimos um tamanho para o botão */
+    border-radius: 20px;/* feito o arredondamento do botao tirando o formato quadrado dele */
+    background-color: rgba(250, 235, 215, 0.42);/* cor do botao */
 
 }
+/* chamamos nossa classe para estilizaçao */
 .Sorteio{
-    background-image: url(img/ps5.jpg);
-    padding: 205px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-        align-items: center;
-    justify-content: center;
+    background-image: url(img/ps5.jpg);/* definimos a imagem de fundo do nosso site */
+    padding: 205px;/* demos um tamanho para a imagem */
+    background-repeat: no-repeat;/* definimos que a imagem nao ira se repitir */
+    background-size: cover;/* utilizada para que a imagem preencha todo o site */
+    background-position: center;/* utilizada para centralizar a imagem */
+    display: flex;/* tormanos a section flex */
+        align-items: center;/* utilizada para centralizar o texto */
+    justify-content: center;/* utilizada para centralizar o botao na horizontal */
 }
-
+/* chamamos nossa section principal para estilização */
 main section {
     background-image: url(img/images\ \(2\).jpg);
-    padding: 170px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-size: 20px;
-    background-attachment: fixed;
+    padding: 170px;/* demos um tamanho a ela */
+    background-repeat: no-repeat;/* definimos que a imagem de fundo nao repita */
+    background-position: center;/* centralizamos a imagem */
+    background-size: cover;/* definimos que a imagem utilize de todo o site */
+    font-size: 20px;/* definimos o tamanho da fonte da letra */
+    background-attachment: fixed;/* tornamos a imagem de fundo fixa  */
 
 }
-
+/* chamamos nosso paragrafo da section principal para estilizar */
 main section p {
-    font-weight: 900;
+    font-weight: 900;/* alteramos a espessura da letra */
 }
-
+/* chamamos a class da section para a estilizaçao */
 .dois {
-    padding: 130px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-size: 20px;
-    background-color: #2f67dc;
-    display: flex;
+    padding: 130px;/* demos um tamanho a ela */
+    font-size: 20px;/* definimos o tamanho da fonte */
+    background-color: #2f67dc;/* definimos uma cor para o fundo */
+    display: flex;/* tornamos o display dela flex para ficar uma ao lado da outra */
 }
-
+/* chamamos a tag de imagem para  estilizaçao */
 .doiso{
-    display: flex;
-    width: 205px;
-    height: auto;
-    justify-content: space-evenly;
+    display: flex;/* tornamos o display dela flex para ficar uma ao lado da outra */
+    width: 205px;/* largura da imagen */
+    height: auto;/* altura da imagen */
+    justify-content: space-evenly;/* justificativa do conteudo - aqui podemos ajustar conforme nossa necessidade */
 }
+/* chamamos a tag de imagem para  estilizaçao */
 .doiso {
-    border-radius: 10px;
+    border-radius: 10px;/* feito o arredondamento da imagem tirando o formato quadrado dele */
 
 }
+/* chamamos a lista do nosso roda-pé para estilizaçao */
 footer div ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1849b7;
+    display: flex;/* tornamos o roda-pé flex */
+    align-items: center;/* centralizamos os itens (vertical) */
+    justify-content: center;/* justificamos o conteudo do roda-pé para o centro (horizontal) */
+    background-color: #1849b7;/* definimos uma cor de fundo do roda-pé */
    
 }
+/* chamamos a lista nao ordenada do roda-pé para estilizaçao */
 footer div ul li {
-    margin-right: 50px;
-    color: aliceblue;
+    margin-right: 50px;/* demos um espaçamento para os conteudos das listas */
+    color: aliceblue;/* definimos uma cor para a lista */
     
 }
+/* chamamos a ancora da lista para a estilização */
 footer div ul li a{
-    color: aliceblue;
-     text-decoration: none;
+    color: aliceblue;/* definimos uma cor para a ancora */
+     text-decoration: none;/* decoraçao da lista(sublinhado)desativado */
 }
