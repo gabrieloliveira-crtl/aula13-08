@@ -27,10 +27,16 @@ header nav div ul {
 header nav div ul li {
     margin-right: 30px;/* espaçamento entre as (li) */
 }
+
 /* chamamos nossa ancora para estilizaçao */
 header nav div ul li a {
     text-decoration: none;/* decoraçao da ancora (subinhado) desabilitado */
     color: aliceblue;/* cor definida */
+}
+header nav div ul li a:hover{
+    color: #2f67dc;
+    transition: 1s;
+    border-radius: 7px;
 }
 /* chamamos a section para estilização */
 .titulo {
@@ -40,7 +46,16 @@ header nav div ul li a {
 section div input{
     padding: 10px;/* definimos um tamanho para o botão */
     border-radius: 20px;/* feito o arredondamento do botao tirando o formato quadrado dele */
-    background-color: rgba(250, 235, 215, 0.42);/* cor do botao */
+    background-color: rgba(0, 30, 255, 0.42);/* cor do botao */
+    
+}
+/* hover - movimento do mouse em cima do elemento chamado do lado esquerdo do : */
+section div input:hover{
+    background-color: #2f67dc;/* trocado o fundo do botão */
+    transition: 0.8s;/* transiçao para o tamanho do botao */
+    color: antiquewhite;/* trocada a cor da letra do botão */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/* trocada a familia do botão */
+
 
 }
 /* chamamos nossa classe para estilizaçao */
@@ -88,6 +103,12 @@ main section p {
     border-radius: 10px;/* feito o arredondamento da imagem tirando o formato quadrado dele */
 
 }
+/* hover - movimento do mouse em cima do elemento chamado do lado esquerdo do : */
+.doiso:hover{
+width: 230px; /* trocada o tamanho da imagem */
+transition: 1s;/* transiçao para a troca de tamanho da imagem */
+cursor:no-drop;/* trocado o cursor após passar o cursor acima da imagem */
+}
 /* chamamos a lista do nosso roda-pé para estilizaçao */
 footer div ul {
     display: flex;/* tornamos o roda-pé flex */
@@ -106,4 +127,9 @@ footer div ul li {
 footer div ul li a{
     color: aliceblue;/* definimos uma cor para a ancora */
      text-decoration: none;/* decoraçao da lista(sublinhado)desativado */
+}
+/* hover - movimento do mouse em cima do elemento chamado do lado esquerdo do : */
+footer div ul li a:hover{
+    color: blue;/* trocada a cor da letra */
+    transition: 0.8s;/* transiçao na troca de cor da imagem */
 }
