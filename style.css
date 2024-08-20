@@ -145,6 +145,14 @@ footer div ul li a:hover{
     color: blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.section-atual{
+    padding: 230px;
+    background-color: chocolate;
+}
+.section-nova{
+    padding: 210px;
+    background-color: blue;
+}
 
 
 
