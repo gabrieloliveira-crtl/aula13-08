@@ -52,7 +52,8 @@ header nav div ul li a:hover{
 }
 .section-nova{
     padding: 170px;
-    background-color: blue;
+   background: linear-gradient(180deg, #ffffff 7.33%,#1849b7 100%);
+
 }
 /* dentro dele exitste 3 caixas */
 .papai{
