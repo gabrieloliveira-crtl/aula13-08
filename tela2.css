@@ -120,7 +120,6 @@ header nav div ul li a:hover{
 }
 #filho4:hover{
     background-image: url(img/d04f01a86b0b88e1ba90ac83b6637136bda6b776d01bb4145267767392b83c37_1.jpg);/* trocada a imagem ao passar o mouse */
-    .........
     transition: 1s;/* transisao da imagem */
     width: 215px;/* aumentada o tamanho da imagem */
     height: 300px;/* aumentada a largura da imagem */
