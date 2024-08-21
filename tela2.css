@@ -1,3 +1,200 @@
-header i{
-    color: aquamarine;
+*{
+    margin: 0;/* zarando a marigin do site */
+    padding: 0;/* zerando o preenchimento*/
+    list-style: none;/* removendo os estilos de listas */
 }
+
+header {
+    display: flex;/* tornando nosso header flex - deixando os itens lado a lado */
+    justify-content: space-around;/* justificativa do conteudo - aqui podemos ajustar conforme nossa necessidade */
+    align-items: center;
+    padding: 15px;/* colocando um tamanho no header  */
+    background-image: url(img/tecido-games-epicos-video-playstation-140-cm-x-100-cm-estampa-saia-vestido.webp);/* colocamos uma imagem de fundo do site,0
+     */
+    color: aliceblue;/* colocamos uma cor nas letras */
+}
+/* chamamos nosso icone para estilização */
+header img {
+    width: 90px;/* largura da imagen */
+    height: auto;/* altura da imagen */
+}
+/* chamamos nossa lista para estilizaçao  */
+header nav div ul {
+    display: flex;/* tornamos nossa lista nao ordenada em flex, deixando os itens pertencentes a ela, lado a lado */
+}
+/* chamamos nossa lista para estilizaçao  */
+header nav div ul li {
+    margin-right: 30px;/* espaçamento entre as (li) */
+}
+
+/* chamamos nossa ancora para estilizaçao */
+header nav div ul li a {
+    text-decoration: none;/* decoraçao da ancora (subinhado) desabilitado */
+    color: aliceblue;/* cor definida */
+}
+header nav div ul li a:hover{
+    color: #2f67dc;
+    transition: 1s;
+    border-radius: 7px;
+}
+
+
+.section-tela2 h2 {
+    font-size: 40px;
+}
+.section-tela2 p {
+    font-size: 30px;
+    font-weight: 800;
+}
+.section-tela2 span {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-nova{
+    padding: 170px;
+    background-color: blue;
+}
+/* dentro dele exitste 3 caixas */
+.papai{
+    display: flex;/* tornamos os itens flex, deixando as caixas lado a lado */
+    justify-content: space-evenly;/* justificando os itens ao espaçamento */
+    margin-bottom: 40px;/* adicionado espaço entre as caixas */
+}
+/* estilizaçao das caixas filho */
+.papai div{
+    width: 190px;/* largura da caixa */
+    height: 270px;/* altura da caixa */
+    background-color: antiquewhite;/* cor de fundo  */
+    border-radius: 20px;/* curva da quina da caixa */
+    background-repeat: no-repeat;/* configurada para a imagem nao se repitir */
+    background-size: cover;/* para a imagem utilizar a caixa inteira */
+    background-position: center; /* centralizada a imagem na caixa */
+}
+/* chamamos o id da div filho para alteraçao de imagem */
+#filho{
+    background-image: url(img/sdfg2344.jpg);/* trocada a imagem da caixa */
+}
+/* chamamos o id da div filho1 para alteraçao de imagem */
+#filho1{
+    background-image: url(img/cqwdqw.jpg);/* trocada a imagem da caixa */
+}
+/* chamamos o id da div filho2 para alteraçao de imagem */
+#filho2{
+    background-image: url(img/fghgfgserfawe.jpeg);/* trocada a imagem da caixa */
+}
+/* chamamos o id da div filho3 para alteraçao de imagem */
+#filho3{
+    background-image: url(img/qedasdqwq3e3.jpg);/* trocada a imagem da caixa */
+}
+/* chamamos o id da div filho4 para alteraçao de imagem */
+#filho4{
+    background-image: url(img/sfavsr4324.jpg);/* trocada a imagem da caixa */
+}
+/* chamamos o id da div filho5 para alteraçao de imagem */
+#filho5{
+    background-image: url(img/xfgbndterdzc.jpg);/* trocada a imagem da caixa */
+}
+#filho:hover{
+    background-image: url(img/monjeu.webp);/* trocada a imagem ao passar o mouse */
+    transition: 1s;/* transisao da imagem */
+    width: 215px;/* aumentada o tamanho da imagem */
+    height: 300px;/* aumentada a largura da imagem */
+}
+#filho1:hover{
+    background-image: url(img/rockl.jpg);/* trocada a imagem ao passar o mouse */
+    transition: 1s;/* transisao da imagem */
+    width: 215px;/* aumentada o tamanho da imagem */
+    height: 300px;/* aumentada a largura da imagem */
+}
+#filho2:hover{
+    background-image: url(img/taxadade.jpg);/* trocada a imagem ao passar o mouse */
+    transition: 1s;/* transisao da imagem */
+    width: 215px;/* aumentada o tamanho da imagem */
+    height: 300px;/* aumentada a largura da imagem */
+}
+#filho3:hover{
+    background-image: url(img/fakeneri.jpg);/* trocada a imagem ao passar o mouse */
+    transition: 1s;/* transisao da imagem */
+    width: 215px;/* aumentada o tamanho da imagem */
+    height: 300px;/* aumentada a largura da imagem */
+}
+#filho4:hover{
+    background-image: url(img/d04f01a86b0b88e1ba90ac83b6637136bda6b776d01bb4145267767392b83c37_1.jpg);/* trocada a imagem ao passar o mouse */
+    .........
+    transition: 1s;/* transisao da imagem */
+    width: 215px;/* aumentada o tamanho da imagem */
+    height: 300px;/* aumentada a largura da imagem */
+}
+#filho5:hover{
+    background-image: url(img/igor.jpg);/* trocada a imagem ao passar o mouse */
+    transition: 1s;/* transisao da imagem */
+    width: 215px;/* aumentada o tamanho da imagem */
+    height: 300px;/* aumentada a largura da imagem */
+}
+.pai {
+    display: flex;/* tornamos os itens flex, deixando as caixas lado a lado */
+    justify-content: space-evenly;/* justificando os itens ao espaçamento */
+}
+.pai div{
+    width: 190px;/* largura da caixa */
+    height: 260px;/* altura da caixa */
+    background-color: antiquewhite;/* cor de fundo  */
+    border-radius: 20px;/* curva da quina da caixa */
+    background-repeat: no-repeat;/* configurada para a imagem nao se repitir */
+    background-size: cover;/* para a imagem utilizar a caixa inteira */
+    background-position: center;/* centralizada a imagem na caixa */
+}
+.section-atual{
+    padding: 230px;/* tamanho da sessao */
+    background-color: chocolate;/* cor da sessao */
+}
+
+
+footer div ul {
+    display: flex;/* tornamos o roda-pé flex */
+    align-items: center;/* centralizamos os itens (vertical) */
+    justify-content: center;/* justificamos o conteudo do roda-pé para o centro (horizontal) */
+    background-color: #1849b7;/* definimos uma cor de fundo do roda-pé */
+   
+}
+/* chamamos a lista nao ordenada do roda-pé para estilizaçao */
+footer div ul li {
+    margin-right: 50px;/* demos um espaçamento para os conteudos das listas */
+    color: aliceblue;/* definimos uma cor para a lista */
+    
+}
+/* chamamos a ancora da lista para a estilização */
+footer div ul li a{
+    color: aliceblue;/* definimos uma cor para a ancora */
+     text-decoration: none;/* decoraçao da lista(sublinhado)desativado */
+}
+/* hover - movimento do mouse em cima do elemento chamado do lado esquerdo do : */
+footer div ul li a:hover{
+    color: blue;/* trocada a cor da letra */
+    transition: 0.8s;/* transiçao na troca de cor da imagem */
+}
+/* estilizando icone */
+footer i{
+    color: rgb(255, 255, 255);/* cores do icone */
+    font-size: 50px;/* tamanho do icone */
+    background-color: gray;/* cor de fundo do elemento */
+    padding: 10px;/* respiro/preenchimento da cor de fundo */
+    border-radius: 10px;/* arredondamento da caoxa */
+}
+/* aplicando efeito ao passar o mouse */
+footer i:hover{
+    background-color: purple;/* cor de fundo alterada */
+    transition: 1s;/* transiçao do elemento */
+}
+.section-tela2{
+    background-image: url(img/PA5.png);
+    padding: 280px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-tela2{
+    padding: 150px;
+    background-color: black;}
