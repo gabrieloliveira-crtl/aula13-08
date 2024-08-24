@@ -52,7 +52,7 @@ header nav div ul li a:hover{
 }
 .section-nova{
     padding: 170px;
-   background: linear-gradient(140deg, #575656 10.33%,#004cff 100%);
+   background: linear-gradient(150deg, rgb(32, 32, 32)7.33%,#004cff 100%);
 
 }
 /* dentro dele exitste 3 caixas */
@@ -102,13 +102,13 @@ header nav div ul li a:hover{
     height: 300px;/* aumentada a largura da imagem */
 }
 #filho1:hover{
-    background-image: url(img/rockl.jpg);/* trocada a imagem ao passar o mouse */
+    background-image: url(img/nicolas.jpg);/* trocada a imagem ao passar o mouse */
     transition: 1s;/* transisao da imagem */
     width: 215px;/* aumentada o tamanho da imagem */
     height: 300px;/* aumentada a largura da imagem */
 }
 #filho2:hover{
-    background-image: url(img/taxadade.jpg);/* trocada a imagem ao passar o mouse */
+    background-image: url(img/qwdqw.jpg);/* trocada a imagem ao passar o mouse */
     transition: 1s;/* transisao da imagem */
     width: 215px;/* aumentada o tamanho da imagem */
     height: 300px;/* aumentada a largura da imagem */
@@ -145,29 +145,32 @@ header nav div ul li a:hover{
     background-position: center;/* centralizada a imagem na caixa */
 }
 .section-atual{
-    padding: 230px;/* tamanho da sessao */
-    background-color: chocolate;/* cor da sessao */
+    padding: 240px;/* tamanho da sessao */
+    background: linear-gradient(230deg,#004cff 7.33%,rgb(32, 32, 32) 100%);/* cor da sessao */
+    display: flex;
+    justify-content: space-between;
+}
+.titulo h2{
+    color: white;
+    margin: 30px;
+}
+.titulo p{
+    color: white;
+    margin: 30px;
+    font-size: 20px;/*tamanho padrao é 16px*/
+    font-weight: 300;
 }
 
 
 footer div ul {
-    display: flex;/* tornamos o roda-pé flex */
+    /* tornamos o roda-pé flex */
     align-items: center;/* centralizamos os itens (vertical) */
-    justify-content: center;/* justificamos o conteudo do roda-pé para o centro (horizontal) */
+    justify-content: space-between;/* justificamos o conteudo do roda-pé para o centro (horizontal) */
     background-color: #1849b7;/* definimos uma cor de fundo do roda-pé */
+    margin-right: 30px;
    
 }
-/* chamamos a lista nao ordenada do roda-pé para estilizaçao */
-footer div ul li {
-    margin-right: 50px;/* demos um espaçamento para os conteudos das listas */
-    color: aliceblue;/* definimos uma cor para a lista */
-    
-}
-/* chamamos a ancora da lista para a estilização */
-footer div ul li a{
-    color: aliceblue;/* definimos uma cor para a ancora */
-     text-decoration: none;/* decoraçao da lista(sublinhado)desativado */
-}
+
 /* hover - movimento do mouse em cima do elemento chamado do lado esquerdo do : */
 footer div ul li a:hover{
     color: blue;/* trocada a cor da letra */
@@ -195,6 +198,12 @@ footer i:hover{
     justify-content: center;
 
 }
-.footer-tela2{
-    padding: 150px;
-    background-color: black;}
+footer{
+    padding: 50px;
+    background-color: #1849b7;
+    display: flex;
+    justify-content: space-around;
+}
+footer img{
+    width: 100px;
+}
