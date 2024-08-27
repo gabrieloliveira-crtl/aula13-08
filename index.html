@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="img/botoes-de-jogos-sony-ps.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/68a82f1b2c.js" crossorigin="anonymous"></script>
     <title>FanaticStation</title>
 </head>
 
@@ -17,15 +18,17 @@
         <nav>
             <div>
                 <ul>
-                    <li><a href="">Parcerias</a></li>
-                    <li><a href="">Sobre Nós</a></li>
-                    <li><a href="">Site Oficial</a></li>
+                    <li>
+                        <!-- usamos a # para chamar uma identificaçao (id) -->
+                        <a href="#section1">Sorteio</a></li>
+                    <li><a href="#section02">Sobre Playstation</a></li>
+                    <li><a href="#section03">O primeiro Playstation</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <!-- section utilizada para fazer o botao dentro de uma (caixa) -->
-    <section class="Sorteio">
+    <section class="Sorteio" id="section01">
         <div>
             <a href="tela2.html">
             <input type="button" value="Sorteio de um PS5">
@@ -35,7 +38,7 @@
     <!-- main definindo qual a parte importante do site para o navegador -->
     <main>
         <!-- feito subtitulo e uma breve texto com uma imagem de fundo estatica -->
-        <section class="section-principal">
+        <section class="section-principal" id="section02">
 
             <div>
                 <h2 class="titulo">Saiba sobre a Playstation</h2>
@@ -51,9 +54,9 @@
         </section>
     </main>
     <!-- 3° section utilizada para colocar mais um breve texto com uma imagem na lateral direita -->
-    <section class="dois">
+    <section class="dois" id="section03">
         <div>
-            <h2 class="titu"> A Primeira PlayStation</h2><br>
+            <h2 class="titu"> O Primeiro PlayStation</h2><br>
             <p>Lançada em 1994 no Japão e em 1995 na América do Norte e Europa, a PlayStation original foi o primeiro
                 console a vender mais de 100 milhões de unidades, consolidando o sucesso da Sony no mercado de jogos.
             </p>
@@ -64,16 +67,25 @@
     </section>
     <!-- feito o roda-pe do site com 3 listas -->
     <footer>
-        <div>
-            <ul>
-                <li><a href="">politica de segutança</a></li>
-
-                <li><a href="">politica de segutança</a></li>
-
-                <li><a href="">politica de segutança</a> </li>
-
-            </ul>
-        </div>
+       <div class="foto">
+<img src="img/ps4-5172918_640.png" alt="">
+<hr class="line">
+       </div>
+       <div class="icone">
+        <h2>Nossas midias sociais:</h2>
+        <ul>
+            <a href="">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+                  <a href="https://x.com/?lang=pt-br" class="tuiter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://fontawesome.com/icons">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+          
+        </ul>
+            </div>
     </footer>
 </body>
 

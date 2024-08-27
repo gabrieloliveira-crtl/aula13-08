@@ -190,20 +190,49 @@ footer i:hover{
     transition: 1s;/* transiçao do elemento */
 }
 .section-tela2{
-    background-image: url(img/PA5.png);
-    padding: 280px;
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
+    background-image: url(img/PA5.png);/* imagem de fundo da sessao */
+    padding: 280px;/* tamanho da sessao */
+    background-size: cover;/* feito para imagem usar todo o fundo */
+    background-position: center;/* centralizando a imagem de fundo */
+    align-items: center;/* alinhamento vertical dos itens */
+    justify-content: center;/* alinhamento horizontal dos itens */
 
 }
 footer{
-    padding: 50px;
-    background-color: #1849b7;
-    display: flex;
-    justify-content: space-around;
+    padding: 50px;/* tamanho da sessao */
+    background-color: #1849b7;/* cor de fundo da sessao */
+    display: flex;/* tornando a sessa flex */
+    justify-content: space-around;/* justificando os conteudos da sessao */
 }
 footer img{
-    width: 100px;
+    width: 100px;/* tamanho da imagem */
+}
+.foto .line{
+    height: 1px;/* tamanho da linha */
+    background-color: black;/* cor da linha */
+    border-color: gray;/* cor da borda da linha */
+}
+.icone  a{
+    text-decoration: none;/* decoraçao to texto anulada */
+}
+footer i{
+    color: rgb(255, 255, 255);/* cores do icone */
+    font-size: 50px;/* tamanho do icone */
+    background-color: gray;/* cor de fundo do elemento */
+    padding: 10px;/* respiro/preenchimento da cor de fundo */
+    border-radius: 10px;/* arredondamento da caoxa */
+    margin-right: 10px;
+}
+/* aplicando efeito ao passar o mouse */
+footer i:hover{
+    background-color: black;/* cor de fundo alterada */
+    transition: 5s;/* transiçao do elemento */
+    color: red;
+}
+.icone h2{/* chamando o titulo para estilizaçao */
+    color: white;/* cor do titulo */
+    margin-bottom: 10px;/* espaçamento entre os icones e o titulo */
+}
+html{
+    scroll-behavior: smooth;
 }

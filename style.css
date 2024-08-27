@@ -132,57 +132,42 @@ footer div ul li a{
 footer div ul li a:hover{
     color: blue;/* trocada a cor da letra */
     transition: 0.8s;/* transiçao na troca de cor da imagem */
-}
-/* TELA 2 */
-.section-tela2 h2 {
-    font-size: 40px;
-}
-.section-tela2 p {
-    font-size: 30px;
-    font-weight: 800;
-}
-.section-tela2 span {
-    color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.section-atual{
-    padding: 230px;
-    background-color: chocolate;
-}
-.section-nova{
-    padding: 210px;
-    background-color: blue;
-}
-
-
-
-
-
-
-
-/* estilizando icone */
-footer i{
+}footer i{
     color: rgb(255, 255, 255);/* cores do icone */
     font-size: 50px;/* tamanho do icone */
     background-color: gray;/* cor de fundo do elemento */
     padding: 10px;/* respiro/preenchimento da cor de fundo */
     border-radius: 10px;/* arredondamento da caoxa */
+    margin-right: 10px;
 }
 /* aplicando efeito ao passar o mouse */
 footer i:hover{
-    background-color: purple;/* cor de fundo alterada */
-    transition: 1s;/* transiçao do elemento */
+    background-color: black;/* cor de fundo alterada */
+    transition: 5s;/* transiçao do elemento */
+    color: red;
 }
-.section-tela2{
-    background-image: url(img/PA5.png);
-    padding: 280px;
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-
+.icone h2{/* chamando o titulo para estilizaçao */
+    color: white;/* cor do titulo */
+    margin-bottom: 10px;/* espaçamento entre os icones e o titulo */
 }
-.footer-tela2{
-    padding: 150px;
-    background-color: black;
+footer{
+    padding: 50px;/* tamanho da sessao */
+    background-color: #1849b7;/* cor de fundo da sessao */
+    display: flex;/* tornando a sessa flex */
+    justify-content: space-around;/* justificando os conteudos da sessao */
+}
+footer img{
+    width: 100px;/* tamanho da imagem */
+}
+.foto .line{
+    height: 1px;/* tamanho da linha */
+    background-color: black;/* cor da linha */
+    border-color: gray;/* cor da borda da linha */
+    margin-top:7px ;
+}
+.icone  a{
+    text-decoration: none;/* decoraçao to texto anulada */
+}
+html{
+    scroll-behavior: smooth;
 }
